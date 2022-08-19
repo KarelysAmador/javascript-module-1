@@ -1,0 +1,10 @@
+console.log ("Halo, dunia!");
+console.log ("Ciao, mondo!");
+console.log ("Hola, mundo!");
+console.log ("Hallo, Welt!");
+console.log ("Olá, mundo!");
+console.log ("hola, món!");
+console.log ("salut, monde!");
+console.log ("Dia duit Domhanda");
+console.log ("Halo Dunia");
+console.log ("Hei Verden");
