@@ -16,7 +16,14 @@ console.log (greeting);
 
 
 
-/* Ejemplo --- function getAgeInDays(age) {
+/* Ejemplo --- 
+function getCurrentYear (){
+    const date= new Date; **el Date debe tener la D en mayus para que Java Script la reconozca**
+    return date.getFullYear()
+}
+
+
+ejemplo 2 --- function getAgeInDays(age) {
   return age * 365;
 }
 
