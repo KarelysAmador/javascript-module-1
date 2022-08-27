@@ -13,7 +13,7 @@ function checkValid(userName, userType) {
         return "Username Invalid";
     }
 }
-console.log(checkValid("Gabriel", "manager"));
+console.log(checkValid("gabriel", "manager"));
 
 
 
