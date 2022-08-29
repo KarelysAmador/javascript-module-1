@@ -9,6 +9,13 @@
 let n = 10;
 
 function sumTillNum(num){
+	let i = 3
+	let sum = 0
+	while (i <= num) {
+		i += 1
+		sum += i
+	}
+	return sum;
 	//your code here
 }
 

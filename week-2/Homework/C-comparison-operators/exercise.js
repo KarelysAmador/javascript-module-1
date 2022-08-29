@@ -7,15 +7,39 @@
 
 var studentCount = 16;
 var mentorCount = 9;
-var moreStudentsThanMentors; // finish this statement
+var moreStudentsThanMentors = studentCount > mentorCount;
+
+/*function moreStudentsThanMentors (studentCount , mentorCount) {
+    if (studentCount > mentorCount) {
+    return true;
+    } else false;
+  }*/
+
+// finish this statement
 
 var roomMaxCapacity = 25;
-var enoughSpaceInRoom; // finish this statement
+var enoughSpaceInRoom = roomMaxCapacity >= moreStudentsThanMentors; // finish this statement
+
+/*function enoughSpaceInRoom (roomMaxCapacity, moreStudentsThanMentors) {
+      if (roomMaxCapacity >= moreStudentsThanMentors) {
+        {
+        return true;
+        } return false;
+    }
+}*/
 
 var personA = "Daniel";
 var personB = "Irina";
-var sameName; // finish this statement
+var sameName = personA === personB; // finish this statement
 
+/*function sameName (personA, personB) {
+if (personA = personB) {
+        {
+        return true;
+        } return false;
+    }
+}
+*/
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
