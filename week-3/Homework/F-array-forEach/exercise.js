@@ -6,22 +6,22 @@
 
   An array with numbers 1-15 has been provided.
 */
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 
-let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
-
-function Fizz(number){
-  for (let num=0; num <= arr.length; num++){
-    if (num % 15 == 0){
-      console.log("FizzBuzz");
-    }else if (num % 3 == 0){
-      console.log("Fizz");
-    }else if (num % 5 == 0){
-      console.log("Buzz");
-    }else
-      console.log(num);
+arr.forEach((array) => {
+  if (array % 3 === 0 && array % 5 === 0) {
+    console.log("FizzBuzz");
+  } else if (array % 5 === 0){
+    console.log("Buzz");
+  } else if (array % 3 === 0){
+    console.log("Fizz");
+  } else {
+    console.log(array);
   }
-}
+})
 
+
+///revisar///
 /* EXPECTED OUTPUT */
 
 /*
