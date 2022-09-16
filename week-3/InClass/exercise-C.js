@@ -16,13 +16,8 @@ function magician(yourFunc) {
   ];
 
   const magicOutput = yourFunc(namesArray);
-
   return magicOutput;
 }
 /*const magician2=(nombre, año) => {
-console.log (
-  
-)
-}
-*/
+console.log ()}*/
 console.log(magician(convertToMayus));
